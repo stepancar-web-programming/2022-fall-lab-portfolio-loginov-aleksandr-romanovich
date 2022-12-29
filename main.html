@@ -129,8 +129,13 @@
     <div class="footer_shell">
         <div class="privacy"><a href="/privacy/">Политика конфиденциальности</a></div>
         <div class="row">
-            <div class="copy">&copy;2017 — 2022 Sporrrtik.&nbsp;</div>
+            <div class="copy">&copy;2017 — <span id="date">2019</span>Sporrrtik.&nbsp;</div>
             <div class="rights">Все права защищены.</div>
         </div>
     </div>
 </footer>
+<script>
+    document.getElementById('date').textContent = new Date().getFullYear()
+</script>
+</body>
+</html>
