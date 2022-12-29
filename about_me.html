@@ -18,24 +18,12 @@
     <link rel="stylesheet" type="text/css" href="css/about_me.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
-
-    <script src="js/responsive-nav.js"></script>
 </head>
 <body id="home">
 <div class="about-me-image"></div>
 <header>
     <div class="header_shell">
         <a href="#" class="logo" data-scroll>Sporrrtik</a>
-<!--        <nav class="nav-collapse">-->
-<!--            <ul>-->
-<!--                <li class="menu-item active"><a href="/#resume" data-scroll>Резюме</a></li>-->
-<!--                <li class="menu-item"><a href="/#projects" data-scroll>Проекты</a></li>-->
-<!--                <li class="menu-item"><a href="/#career" data-scroll>Карьера</a></li>-->
-<!--                &lt;!&ndash;                <li class="menu-item"><a href="/#diplomas" data-scroll>Награды</a></li>&ndash;&gt;-->
-<!--                <li class="menu-item"><a href="/#contacts" data-scroll>Контакты</a></li>-->
-<!--                <li class="menu-item"><a href="/#about-me" data-scroll>Обо мне</a></li>-->
-<!--            </ul>-->
-<!--        </nav>-->
     </div>
 </header>
 <main>
@@ -74,8 +62,13 @@
     <div class="footer_shell">
         <div class="privacy"><a href="/privacy/">Политика конфиденциальности</a></div>
         <div class="row">
-            <div class="copy">&copy;2017 — 2022 Sporrrtik.&nbsp;</div>
+            <div class="copy">&copy;2017 — <span id="date">2019</span>Sporrrtik.&nbsp;</div>
             <div class="rights">Все права защищены.</div>
         </div>
     </div>
 </footer>
+<script>
+    document.getElementById('date').textContent = new Date().getFullYear()
+</script>
+</body>
+</html>
