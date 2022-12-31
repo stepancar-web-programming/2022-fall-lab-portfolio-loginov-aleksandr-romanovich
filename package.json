@@ -1,0 +1,26 @@
+{
+  "name": "loginov_card",
+  "version": "1.0.0",
+  "description": "web-programming lab",
+  "main": "main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "main.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-loginov-aleksandr-romanovich.git"
+  },
+  "keywords": [
+    "web-lab",
+    "best",
+    "site",
+    "ever"
+  ],
+  "author": "sporrrtik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-loginov-aleksandr-romanovich/issues"
+  },
+  "homepage": "https://sporrrtik.github.io/2022-fall-lab-portfolio-loginov-aleksandr-romanovich/"
+}
